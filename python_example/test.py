@@ -22,7 +22,7 @@ def main():
                 json_config_data = ''.join(chr(x) for x in section_data)
                 json_content = json.loads(json_config_data)
                 if json_content["remote_process_access"] == False:
-                    print("Allow remote process access: WriteProcessMemory, etc")
+                    print("Deny remote process access: WriteProcessMemory, etc")
                 # ...
 
 if __name__ == "__main__":
