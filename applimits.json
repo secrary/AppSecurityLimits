@@ -1,0 +1,18 @@
+{
+    "child_processes" : true,
+    "child_names" : 
+    [
+        "name_1.exe",
+        "name_2.exe"
+    ],
+
+    "internet_access" : true,
+    "internet_targets" :
+    [
+        "example.com",
+        "1.2.3.4"
+    ],
+
+    "remote_process_access" : false,
+    "dynamic_function_identification": false
+}
