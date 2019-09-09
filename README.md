@@ -24,4 +24,4 @@ For Example, if a `JSON` content contains following field:
 ` { ... "remote_process_access" : false, ... }`
 then an `EDR/AV` product should deny calls like `WriteRemoteProcess` since it's not intended to be used according to the application developer.
 
-<script src="https://gist.github.com/secrary/43191e69dba8bbd7c896c110086b01b4.js"></script>
+![json](https://user-images.githubusercontent.com/16405698/64544770-3efa6900-d330-11e9-9afe-0a7b5dd3c868.png)
