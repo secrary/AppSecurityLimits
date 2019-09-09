@@ -5,6 +5,8 @@ Define security-related limits for an executable and  embed them into the applic
 
 `The tool aims to limit exploit capabilities.`
 
+#### whoami: [@_qaz_qaz](https://twitter.com/_qaz_qaz)
+
 # Implementation
 
 ## Developer's role:
@@ -25,3 +27,8 @@ For Example, if a `JSON` content contains following field:
 then an `EDR/AV` product should deny calls like `WriteRemoteProcess` since it's not intended to be used according to the application developer.
 
 ![json](https://user-images.githubusercontent.com/16405698/64544998-ab756800-d330-11e9-9d46-f9d5a4b18c77.png)
+
+
+## Third-party
+- LIEF ([Apache License 2.0](https://github.com/lief-project/LIEF/blob/master/LICENSE))
+- nlohmann/json ([MIT License](https://github.com/nlohmann/json/blob/develop/LICENSE.MIT))
