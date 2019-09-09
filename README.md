@@ -17,7 +17,7 @@ The tool creates `.appsec` section in the executable and inserts the `JSON` conf
 ## EDR/AV's role:
 If an executable contains `.appsec` section and a magic string is `.appseclimits_` then extract a `JSON` content from the section and control the application behavior accordingly.
 
-![python](https://user-images.githubusercontent.com/16405698/64543242-8c290b80-d32d-11e9-9f5f-969675ca1e6e.png)
+![python](https://user-images.githubusercontent.com/16405698/64545288-23439280-d331-11e9-8a0f-bfacaa86477c.png)
 
 
 For Example, if a `JSON` content contains following field:
